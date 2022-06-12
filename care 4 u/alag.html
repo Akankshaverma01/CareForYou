@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Hospital Website Design Tutorial</title>
+
+    <!-- aos css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href=""><i class="bi bi-telephone me-2"></i>+91 8400790397</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>akankshaverma8081@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="https://facebook.com/freewebsitecode/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-2" href="https://freewebsitecode.com/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-2" href="https://freewebsitecode.com/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2" href="https://freewebsitecode.com/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body ps-2" href="https://youtube.com">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+<!-- header section starts  -->
+
+<header>
+
+<div class="container">
+
+    <!--<a href="#" class="logo"><span>H</span>ealth<span>C</span>are.</a>-->
+    <a href="index.html" class="nav"> <img src="./img/20220311_132740_0000.png">
+    </a>
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about" class="nav-item nav-link">about</a></li>
+            <li><a href="#facility">facility</a></li>
+            <li><a href="#review">review</a></li>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Posts</a>
+                <div class="dropdown-menu m-0">
+                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                    <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                    <a href="team.html" class="dropdown-item">The Team</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="appointment.html" class="dropdown-item">Appointment</a>
+                    <a href="search.html" class="dropdown-item">Search</a>
+                </div>
+            </div>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#post">post</a></li>
+        </ul>
+    </nav>
+
+    <div class="fas fa-bars"></div>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="content">
+        <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+            <h1><span>stay</span> safe, <span>stay</span> healthy.</h1>
+            <h3>caring for you.</h3>
+            <a href="#"><button class="button">learn more</button></a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="img/production ID_4201702.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="img/production ID_4201702.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+</div>
+
+</section>
+
+
+<!-- home section ends -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+    <div class="row min-vh-100 align-items-center">
+
+        <div class="col-md-6 content" data-aos="fade-right">
+
+            <div class="box">
+                <h3> <i class="fas fa-ambulance"></i> ambulance services </h3>
+                <p>Careforyou has compiled a list of verified services for emergency of non emergency travel. Ambulance and cab services to hospital vaccination center or testing centers.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3> <i class="fas fa-procedures"></i> emergency rooms </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
+            </div>
+
+            <div class="box">
+                <h3> <i class="fas fa-stethoscope"></i> free check-ups </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 d-none d-md-block" data-aos="fade-left">
+            <img src="images/about-img.png" width="100%" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- facility section starts  -->
+
+<section class="facility" id="facility">
+
+<div class="container">
+
+<h1 class="heading"><span>'</span> our facilities <span>'</span></h1>
+
+<div class="box-container">
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img1.jpg" title="our team">
+            <img src="images/img1.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img2.jpg" title="our lab">
+            <img src="images/img2.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img3.jpg" title="emergency rooms">
+            <img src="images/img3.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img4.jpg" title="expert doctors">
+            <img src="images/img4.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img5.jpg" title="expert doctors">
+            <img src="images/img5.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img6.jpg" title="emergency rooms">
+            <img src="images/img6.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img7.jpg" title="expert doctors">
+            <img src="images/img7.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img8.jpg" title="emergency rooms">
+            <img src="images/img8.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="box" data-aos="zoom-in">
+        <a href="images/img9.jpg" title="enough beds">
+            <img src="images/img9.jpg" alt="">
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- facility section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+<div class="container">
+
+<h1 class="heading"><span>'</span> people's review <span>'</span></h1>
+
+<div class="box-container">
+
+    <div class="box" data-aos="fade-right">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+        <h3>someone's name</h3>
+        <span>jan 5, 2021</span>
+        <img src="images/pic1.png" alt="">
+    </div>
+
+    <div class="box" data-aos="fade-up">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+        <h3>someone's name</h3>
+        <span>jan 7, 2021</span>
+        <img src="images/pic2.png" alt="">
+    </div>
+
+    <div class="box" data-aos="fade-left">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+        <h3>someone's name</h3>
+        <span>jan 10, 2021</span>
+        <img src="images/pic3.png" alt="">
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- review section ends  -->
+
+<!-- counter section starts  -->
+
+<section class="counter">
+
+    <div class="container">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <i class="fas fa-hospital"></i>
+                <span>120+</span>
+                <h3>Hospitals</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <i class="fas fa-users"></i>
+                <span>100+</span>
+                <h3>staff</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <i class="fas fa-smile"></i>
+                <span>1200+</span>
+                <h3>happy patients</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <i class="fas fa-procedures"></i>
+                <span>130+</span>
+                <h3>bed facility</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- counter section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="container min-vh-100">
+
+        <div class="row justify-content-center">
+
+            <h1 class="heading"><span>'</span> make an appointment <span>'</span></h1>
+
+            <div class="col-md-10" data-aos="flip-down">
+
+                <form action="">
+
+                    <div class="inputBox">
+                        <input type="text" placeholder="full name">
+                        <input type="number" placeholder="phone">
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="email" placeholder="your email">
+                        <select name="" id="">
+                            <option value="" disabled selected>make an appointment</option>
+                            <option value="09-11 am">09-11 am</option>
+                            <option value="11-03 pm">11-03 pm</option>
+                            <option value="03-06 pm">03-06 pm</option>
+                            <option value="06-09 pm">06-09 pm</option>
+                        </select>
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
+
+                    <input type="submit" name="" id="" value="make appointment" class="button">
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- post section starts  -->
+
+<section class="post" id="post">
+
+    <div class="container min-vh-100">
+
+        <h1 class="heading"><span>'</span> out posts <span>'</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <img src="images/img2.jpg" alt="">
+                <div class="content">
+                    <span>jan 5, 2021</span>
+                    <a href="#"><h3>post title goes here</h3></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
+                    <a href="#"><button class="button">learn more</button></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/img4.jpg" alt="">
+                <div class="content">
+                    <span>jan 5, 2021</span>
+                    <a href="#"><h3>post title goes here</h3></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
+                    <a href="#"><button class="button">learn more</button></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <img src="images/img5.jpg" alt="">
+                <div class="content">
+                    <span>jan 5, 2021</span>
+                    <a href="#"><h3>post title goes here</h3></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex porro libero at veniam molestias facere quo necessitatibus ipsum ad?</p>
+                    <a href="#"><button class="button">learn more</button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- post section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4" data-aos="fade-right">
+                <a href="#" class="logo"><span>H</span>ealth<span>C</span>are.</a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nemo porro quasi minima consequuntur dolorum, quas amet in autem id?</p>
+            </div>
+
+            <div class="col-md-4 text-center" data-aos="fade-up">
+                <h3>links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">facility</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+                <a href="#">post</a>
+            </div>
+
+            <div class="col-md-4 text-center" data-aos="fade-left">
+                <h3>share</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">github</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1 class="credit text-center mx-auto">created by <span>mr. web designer</span> | all rights reserved.</h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- aos js file cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- custom js link  -->
+<script src="main.js"></script>
+
+
+<script>
+
+AOS.init({
+    duration:1000,
+    delay:400
+});
+
+</script>
+
+</body>
+</html>
